@@ -18,16 +18,8 @@
   "repository": {
     "core": {
       "patterns": [
-        { "include": "#ignore-long-lines" },
-        { "include": "#flowtype-keywords" },
-        { "include": "#literal-function-labels" },
-        { "include": "#literal-arrow-function-labels" },
-        { "include": "#literal-labels" },
-        { "include": "#literal-for" },
-        { "include": "#literal-switch" },
-        { "include": "#expression" },
-        { "include": "#literal-keywords" },
-        { "include": "#literal-punctuation" }
+        { "include": "source.js" },
+        { "include": "#flowtype-keywords" }
       ]
     },
     "expression": {
